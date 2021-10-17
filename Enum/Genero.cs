@@ -2,15 +2,15 @@ namespace APPseries
 {
     public enum Genero
     {
-        acao = 1,
-        comedia = 2,
-        aventura = 3,
-        documentario = 4,
-        terror = 5,
-        drama = 6,
-        fantasia = 7,
-        romance = 8,
-        suspense = 9,
-        ficcao_cientifica = 10
+        Acao = 1,
+        Comedia = 2,
+        Aventura = 3,
+        Documentario = 4,
+        Terror = 5,
+        Drama = 6,
+        Fantasia = 7,
+        Romance = 8,
+        Suspense = 9,
+        Ficcao_cientifica = 10
     }
 }

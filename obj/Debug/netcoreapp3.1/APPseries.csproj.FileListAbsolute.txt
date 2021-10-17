@@ -1,0 +1,13 @@
+C:\workspace\APPseries\bin\Debug\netcoreapp3.1\APPseries.exe
+C:\workspace\APPseries\bin\Debug\netcoreapp3.1\APPseries.deps.json
+C:\workspace\APPseries\bin\Debug\netcoreapp3.1\APPseries.runtimeconfig.json
+C:\workspace\APPseries\bin\Debug\netcoreapp3.1\APPseries.runtimeconfig.dev.json
+C:\workspace\APPseries\bin\Debug\netcoreapp3.1\APPseries.dll
+C:\workspace\APPseries\bin\Debug\netcoreapp3.1\APPseries.pdb
+C:\workspace\APPseries\obj\Debug\netcoreapp3.1\APPseries.csprojAssemblyReference.cache
+C:\workspace\APPseries\obj\Debug\netcoreapp3.1\APPseries.AssemblyInfoInputs.cache
+C:\workspace\APPseries\obj\Debug\netcoreapp3.1\APPseries.AssemblyInfo.cs
+C:\workspace\APPseries\obj\Debug\netcoreapp3.1\APPseries.csproj.CoreCompileInputs.cache
+C:\workspace\APPseries\obj\Debug\netcoreapp3.1\APPseries.dll
+C:\workspace\APPseries\obj\Debug\netcoreapp3.1\APPseries.pdb
+C:\workspace\APPseries\obj\Debug\netcoreapp3.1\APPseries.genruntimeconfig.cache
