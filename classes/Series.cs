@@ -8,6 +8,7 @@ namespace APPseries
         private string Titulo {get; set;}
         private string Descricao {get; set;}
         private int Ano {get; set;}
+        private bool Excluido {get; set;}
 
         //Metodos
 
@@ -18,6 +19,7 @@ namespace APPseries
             this.Titulo = titulo;
             this.Descricao = descricao;
             this.Ano = ano;
+            this.Excluido = false;
         }
 
         public override string ToString()
@@ -37,6 +39,10 @@ namespace APPseries
         public int RetornoId()
         {
             return this.Id;
+        }
+        public void Excluir()
+        {
+            this.Excluido = true;
         }
     }
 }

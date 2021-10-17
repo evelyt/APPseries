@@ -1,40 +1,39 @@
+using System;
 using System.Collections.Generic;
 using APPseries.interfaces;
 
-namespace APPseries.classes
+namespace APPseries
 {
-    public class NewBaseType
+    public class SerieRepositorio : IRepositorio<Series>
     {
+        private List<Series> ListaSerie = new List<Series>();
         public void Atualiza(int id, Series entidade)
         {
-            throw new System.NotImplementedException();
+            ListaSerie[id] = entidade;
         }
+        public void Exclui(int id)
+        {
+            ListaSerie[id].Excluir();
+        }
+
         public void Insere(Series entidade)
         {
-            throw new System.NotImplementedException();
+            ListaSerie.Add(entidade);
         }
 
         public List<Series> Lista()
         {
-            throw new System.NotImplementedException();
-        }
-    }
-
-    public class SerieRepositorio : NewBaseType, IRepositorio<Series>
-    {
-        public void Exclui(int id)
-        {
-            throw new System.NotImplementedException();
+            return ListaSerie;
         }
 
         public int ProximoId()
         {
-            throw new System.NotImplementedException();
+            return ListaSerie.Count;
         }
 
         public Series RetornaPorId(int id)
         {
-            throw new System.NotImplementedException();
+            return ListaSerie[id];
         }
     }
 }
