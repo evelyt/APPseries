@@ -1,2 +1,2 @@
 # APPseries
- Aplicativo simples de series.
+ Aplicativo simples de cadastro de series.
