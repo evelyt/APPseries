@@ -1,2 +1,2 @@
 # APPseries
- Aplicativo simples de cadastro de series.
+ Aplicativo simples de cadastro de series e filmes.
